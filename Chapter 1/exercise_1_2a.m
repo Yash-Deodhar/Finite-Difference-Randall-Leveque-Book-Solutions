@@ -1,4 +1,4 @@
-function c = fdcoeffV(k, xbar, x)
+function c = exercise_1_2a(k, xbar, x)
 n = length(x);
 rhs = zeros(n,1);
 rhs(k+1) = 1;
